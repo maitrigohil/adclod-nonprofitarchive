@@ -72,7 +72,7 @@ export default function HomePage() {
           <div
             className="absolute inset-0 opacity-30"
             style={{
-              backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.4'/%3E%3C/svg%3E")`,
+              backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox=&apos;0 0 256 256&apos; xmlns=&apos;http://www.w3.org/2000/svg&apos;%3E%3Cfilter id=&apos;noise&apos;%3E%3CfeTurbulence type=&apos;fractalNoise&apos; baseFrequency=&apos;0.9&apos; numOctaves=&apos;4&apos; stitchTiles=&apos;stitch&apos;/%3E%3C/filter%3E%3Crect width=&apos;100%25&apos; height=&apos;100%25&apos; filter=&apos;url(%23noise)&apos; opacity=&apos;0.4&apos;/%3E%3C/svg%3E")`,
               backgroundRepeat: "repeat",
               backgroundSize: "128px 128px",
             }}
@@ -209,7 +209,7 @@ export default function HomePage() {
                 Indian Institute of Management Ahmedabad — a centre dedicated to advancing research and thought leadership
                 in leadership and organisational development. India has a rich legacy of not-for-profit organisations
                 addressing a broad spectrum of social and economic issues — from education and health to environment,
-                livelihoods, and women's empowerment. Despite their vital role in shaping inclusive development, these
+                livelihoods, and women&apos;s empowerment. Despite their vital role in shaping inclusive development, these
                 organisations remain underrepresented in mainstream management education and public discourse.
               </p>
               <p>
@@ -217,7 +217,7 @@ export default function HomePage() {
                 who have built impactful institutions from the ground up — sitting with complexity: the failures that taught
                 more than the wins, the institutional pressures that shaped strategies, the personal reckonings that came
                 with scale. Transcripts and findings will be made open source and shared with researchers across
-                institutions, in keeping with ADCLOD's mission to nurture research on leadership in the country.
+                institutions, in keeping with ADCLOD&apos;s mission to nurture research on leadership in the country.
               </p>
             </div>
 
@@ -311,7 +311,7 @@ export default function HomePage() {
               <div className="bg-white/10 border border-white/20 rounded-xl p-6 text-center">
                 <p className="text-white font-serif text-xl font-normal">Thank you for subscribing.</p>
                 <p className="text-white/60 text-sm mt-2">
-                  You'll hear from us when new episodes are released.
+                  You&apos;ll hear from us when new episodes are released.
                 </p>
               </div>
             ) : (
