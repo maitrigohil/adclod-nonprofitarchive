@@ -15,6 +15,7 @@ export interface Episode {
   blogUrl?: string
   transcriptUrl?: string
   guestUrl?: string
+  guestPdfUrl?: string
   organisationUrl?: string
 }
 
@@ -31,6 +32,7 @@ export const episodes: Episode[] = [
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/1-bhushan-punani.jpeg",
+    guestPdfUrl: "/guests/1. Bhushan Punani Profile.pdf",
   },
   {
     id: "ep-02",

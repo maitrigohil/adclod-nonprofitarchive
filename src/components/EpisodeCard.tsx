@@ -48,9 +48,11 @@ export default function EpisodeCard({
               <Badge variant="coming">Coming Soon</Badge>
             ) : (
               <div className="flex flex-wrap items-center gap-2 sm:gap-3 shrink-0">
-                {episode.guestUrl ? (
+                {episode.guestPdfUrl || episode.guestUrl ? (
                   <Link
-                    href={episode.guestUrl}
+                    href={(episode.guestPdfUrl || episode.guestUrl)!}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs text-text-primary hover:text-iima-blue transition-colors underline underline-offset-2"
                   >
                     About Guest
