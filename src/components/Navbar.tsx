@@ -85,7 +85,7 @@ export default function Navbar() {
                     "font-sans text-sm font-medium tracking-wide transition-all duration-200 relative py-1",
                     "after:absolute after:bottom-0 after:left-0 after:right-0 after:h-px after:transition-transform after:duration-200 after:origin-left",
                     isActive
-                      ? "text-white after:scale-x-100 after:bg-iima-gold"
+                      ? "text-white after:scale-x-100 after:bg-iima-blue"
                       : "text-white/60 hover:text-white after:scale-x-0 hover:after:scale-x-100 after:bg-white/40"
                   )}
                 >
@@ -97,6 +97,23 @@ export default function Navbar() {
 
           {/* RIGHT: placeholder to keep nav centered */}
           <div className="hidden md:block shrink-0 w-[120px] lg:w-[120px]" aria-hidden="true" />
+
+          {/* Mobile logo */}
+          <Link
+            href="/"
+            className="md:hidden flex items-center shrink-0"
+            aria-label="Home"
+          >
+            <Image
+              src="/iima-logo.png"
+              alt="IIM Ahmedabad"
+              width={100}
+              height={40}
+              className="h-8 w-auto object-contain select-none"
+              style={{ filter: "brightness(0) invert(1)" }}
+              priority
+            />
+          </Link>
 
           {/* Mobile hamburger */}
           <button
@@ -124,7 +141,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="font-serif text-2xl font-normal transition-colors duration-200 hover:text-iima-gold"
+                className="font-serif text-2xl font-normal transition-colors duration-200 hover:text-iima-blue"
                 style={{ color: "rgb(243,244,244)", letterSpacing: "-0.1px" }}
               >
                 {link.label}

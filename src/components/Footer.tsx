@@ -1,33 +1,27 @@
 import Link from "next/link"
-import { Youtube, Music2, Podcast } from "lucide-react"
+import { Youtube, Music2 } from "lucide-react"
 import { Separator } from "@/components/ui/separator"
 
 const platformLinks = [
   {
     href: "https://youtube.com",
-    label: "YouTube",
+    label: "Watch Podcast",
     icon: Youtube,
     color: "hover:text-red-500",
   },
   {
     href: "https://spotify.com",
-    label: "Spotify",
+    label: "Listen on Spotify",
     icon: Music2,
     color: "hover:text-green-500",
-  },
-  {
-    href: "https://podcasts.apple.com",
-    label: "Apple Podcasts",
-    icon: Podcast,
-    color: "hover:text-purple-500",
   },
 ]
 
 export default function Footer() {
   return (
-    <footer className="bg-white border-t border-border py-12">
+    <footer className="bg-white border-t border-border py-10 sm:py-12">
       <div className="section-container">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10">
           {/* Brand */}
           <div className="flex flex-col gap-3">
             <div>
@@ -75,8 +69,8 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className={`flex items-center gap-2 text-sm text-text-secondary ${color} transition-colors`}
                 >
-                  <Icon size={16} />
                   <span>{label}</span>
+                  <Icon size={14} />
                 </Link>
               ))}
             </div>

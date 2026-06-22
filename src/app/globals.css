@@ -1,9 +1,9 @@
-/* 
-  Canela Deck → Cormorant Garamond (closest free match: elegant, thin-stroked display serif)
-  GT America Standard → DM Sans (clean, neutral grotesque)
-  Both loaded at all required weights.
+/*
+  Cormorant Garamond — elegant display serif for hero heading
+  DM Sans — preserved for hero subtitle/CTA only
+  Poppins — IIMA website font, used for all non-hero content
 */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -50,9 +50,6 @@
     @apply bg-cream text-text-primary font-sans antialiased;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-  }
-  h1, h2, h3, h4 {
-    @apply font-serif;
   }
 }
 
@@ -120,12 +117,18 @@
 .hero-subtitle {
   opacity: 0;
   animation: hero-slide-up-sm 700ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 700ms forwards;
+  font-family: 'DM Sans', system-ui, sans-serif;
 }
 
 /* CTA */
 .hero-cta {
   opacity: 0;
   animation: hero-fade-in 500ms ease 900ms forwards;
+}
+
+/* Preserve DM Sans for all text inside the hero CTA — overrides Poppins font-sans utility */
+.hero-cta, .hero-cta * {
+  font-family: 'DM Sans', system-ui, sans-serif;
 }
 
 /* Platform icons */
@@ -138,11 +141,11 @@
 
 @layer components {
   .section-container {
-    @apply max-w-6xl mx-auto px-6 lg:px-8;
+    @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
   .episode-card {
-    @apply bg-white rounded-xl border border-border p-5 flex flex-col gap-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer;
+    @apply bg-white rounded-xl border border-border p-4 sm:p-5 flex flex-col gap-4 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 cursor-pointer;
   }
 
   .nav-link {

@@ -60,10 +60,8 @@ module.exports = {
         "text-muted": "#9A9A9A",
       },
       fontFamily: {
-        // Canela Deck → Cormorant Garamond (closest free alternative: thin-stroked, elegant display serif)
         serif: ["'Cormorant Garamond'", "Georgia", "serif"],
-        // GT America Standard → DM Sans (clean neutral grotesque)
-        sans: ["'DM Sans'", "system-ui", "sans-serif"],
+        sans: ["'Poppins'", "system-ui", "sans-serif"],
         mono: ["'JetBrains Mono'", "monospace"],
       },
       borderRadius: {

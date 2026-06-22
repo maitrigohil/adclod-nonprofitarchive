@@ -18,7 +18,7 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-secondary hover:text-secondary-foreground",
         link: "text-iima-blue underline-offset-4 hover:underline",
-        gold: "bg-iima-gold text-white shadow hover:bg-iima-gold/90",
+        gold: "bg-iima-blue text-white shadow hover:bg-iima-blue/90",
       },
       size: {
         default: "h-9 px-4 py-2",

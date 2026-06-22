@@ -2,7 +2,7 @@
 
 import { useRef, useState, useEffect } from "react";
 import Link from "next/link";
-import { Youtube, Music2, Podcast, ArrowRight } from "lucide-react"
+import { Youtube, Music2, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
@@ -10,9 +10,8 @@ import EpisodeCard from "@/components/EpisodeCard"
 import { episodes } from "@/data/episodes"
 
 const platformLinks = [
-  { href: "https://youtube.com", label: "YouTube", icon: Youtube },
-  { href: "https://spotify.com", label: "Spotify", icon: Music2 },
-  { href: "https://podcasts.apple.com", label: "Apple Podcasts", icon: Podcast },
+  { href: "https://youtube.com", label: "Watch Podcast", icon: Youtube },
+  { href: "https://spotify.com", label: "Listen on Spotify", icon: Music2 },
 ]
 
 export default function HomePage() {
@@ -105,7 +104,7 @@ export default function HomePage() {
               className="hero-title font-serif font-normal text-center w-full"
               style={{
                 color: "rgb(243, 244, 244)",
-                fontSize: "clamp(52px, 8vw, 100px)",
+                fontSize: "clamp(36px, 8vw, 100px)",
                 lineHeight: 1.2,
                 letterSpacing: "-0.1px",
                 WebkitFontSmoothing: "antialiased",
@@ -159,9 +158,9 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Platform icons */}
+        {/* Platform links */}
         <div
-          className="hero-platforms absolute bottom-8 left-6 lg:left-10 z-[3] flex items-center gap-5"
+          className="hero-platforms absolute bottom-8 left-6 lg:left-10 z-[3] flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5"
           style={{ color: "rgba(243,244,244,0.45)" }}
         >
           {platformLinks.map(({ href, label, icon: Icon }) => (
@@ -170,35 +169,29 @@ export default function HomePage() {
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              title={label}
-              className="transition-all duration-200 hover:opacity-100"
+              className="flex items-center gap-2 transition-all duration-200"
               style={{ color: "rgba(243,244,244,0.5)" }}
               onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
               onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
             >
-              <Icon size={20} />
+              <span className="font-sans text-xs tracking-wide">{label}</span>
+              <Icon size={15} />
             </Link>
           ))}
         </div>
       </section>
 
       {/* ─── ABOUT ────────────────────────────────────── */}
-      <section id="about" className="py-24 bg-white">
+      <section id="about" className="py-16 sm:py-24 bg-white">
         <div className="section-container">
           <div className="max-w-5xl">
-            <div className="mb-6">
-              <span
-                className="font-sans text-[13px] font-medium text-iima-gold uppercase tracking-[0.18em] inline-block pb-1.5"
-                style={{ borderBottom: "1.5px solid rgba(181,135,58,0.4)" }}
-              >
-                About
+            <div className="mb-5">
+              <span className="font-sans text-xs font-semibold text-iima-blue uppercase tracking-[0.2em] border-l-[3px] border-iima-blue pl-3">
+                About the Initiative
               </span>
             </div>
 
-            <h2
-              className="font-serif text-4xl md:text-5xl font-normal text-text-primary mb-8 leading-tight"
-              style={{ letterSpacing: "-0.1px" }}
-            >
+            <h2 className="font-sans text-3xl md:text-4xl font-semibold text-text-primary mb-8 leading-snug">
               Conversations that illuminate the practice of leadership in the social sector.
             </h2>
 
@@ -227,21 +220,15 @@ export default function HomePage() {
       </section>
 
       {/* ─── PODCASTS ─────────────────────────────────── */}
-      <section id="podcasts" className="py-24 bg-cream">
+      <section id="podcasts" className="py-16 sm:py-24 bg-cream">
         <div className="section-container">
           <div className="mb-10">
             <div className="mb-3">
-              <span
-                className="font-sans text-[13px] font-medium text-iima-gold uppercase tracking-[0.18em] inline-block pb-1.5"
-                style={{ borderBottom: "1.5px solid rgba(181,135,58,0.4)" }}
-              >
+              <span className="font-sans text-xs font-semibold text-iima-blue uppercase tracking-[0.2em] border-l-[3px] border-iima-blue pl-3">
                 Podcasts
               </span>
             </div>
-            <h2
-              className="font-serif text-4xl font-normal text-text-primary mt-1"
-              style={{ letterSpacing: "-0.1px" }}
-            >
+            <h2 className="font-sans text-3xl font-light text-text-primary mt-1">
               Featured Episodes
             </h2>
           </div>
@@ -249,8 +236,8 @@ export default function HomePage() {
 
         <div
           ref={scrollRef}
-          className="flex gap-5 overflow-x-auto scrollbar-hide px-6 lg:px-8 pb-4 max-w-7xl mx-auto"
-          style={{ scrollPaddingLeft: "2rem" }}
+          className="flex gap-4 sm:gap-5 overflow-x-auto scrollbar-hide px-4 sm:px-6 lg:px-8 pb-4 max-w-7xl mx-auto"
+          style={{ scrollPaddingLeft: "1rem" }}
         >
           {episodes.map((episode) => (
             <EpisodeCard key={episode.id} episode={episode} variant="preview" />
@@ -273,7 +260,7 @@ export default function HomePage() {
       {/* ─── NEWSLETTER ───────────────────────────────── */}
       <section
         id="newsletter"
-        className="py-24"
+        className="py-16 sm:py-24"
         style={{
           background: `
             linear-gradient(
@@ -290,17 +277,14 @@ export default function HomePage() {
         <div className="section-container">
           <div className="max-w-2xl mx-auto text-center">
             <div className="flex items-center justify-center gap-3 mb-6">
-              <div className="w-8 h-px bg-iima-gold" />
-              <span className="text-xs font-sans font-medium text-iima-gold uppercase tracking-[0.2em]">
+              <div className="w-8 h-px bg-iima-blue" />
+              <span className="text-xs font-sans font-medium text-iima-blue uppercase tracking-[0.2em]">
                 Newsletter
               </span>
-              <div className="w-8 h-px bg-iima-gold" />
+              <div className="w-8 h-px bg-iima-blue" />
             </div>
 
-            <h2
-              className="font-serif font-normal text-4xl text-white mb-4"
-              style={{ letterSpacing: "-0.1px", lineHeight: 1.2 }}
-            >
+            <h2 className="font-sans font-semibold text-3xl text-white mb-4 leading-snug">
               Stay informed.
             </h2>
             <p className="text-white/70 text-lg leading-relaxed mb-10 font-sans font-light">
@@ -322,7 +306,7 @@ export default function HomePage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="bg-white/10 border-white/20 text-white placeholder:text-white/40 focus-visible:ring-iima-gold focus-visible:border-iima-gold"
+                  className="bg-white/10 border-white/20 text-white placeholder:text-white/40 focus-visible:ring-iima-blue focus-visible:border-iima-blue"
                 />
                 <Button type="submit" variant="gold" className="shrink-0">
                   Subscribe
