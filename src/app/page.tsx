@@ -104,14 +104,16 @@ export default function HomePage() {
               className="hero-title font-serif font-normal text-center w-full"
               style={{
                 color: "rgb(243, 244, 244)",
-                fontSize: "clamp(30px, 8vw, 100px)",
+                fontSize: "clamp(42px, 8vw, 100px)",
                 lineHeight: 1.15,
                 letterSpacing: "-0.1px",
                 WebkitFontSmoothing: "antialiased",
                 textRendering: "optimizeLegibility",
               }}
             >
-              <em style={{ fontStyle: "italic" }}>The Non-Profit Leadership Archive</em>
+              <em style={{ fontStyle: "italic" }}>
+                The Non-Profit<br />Leadership Archive
+              </em>
             </h1>
 
             <p
