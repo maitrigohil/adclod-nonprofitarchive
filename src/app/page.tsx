@@ -11,7 +11,7 @@ import { episodes } from "@/data/episodes"
 
 const platformLinks = [
   { href: "https://www.youtube.com/@adclodiimahmedabad1496", label: "Watch Podcast", icon: Youtube },
-  { href: "https://spotify.com", label: "Listen on Spotify", icon: Music2 },
+  { href: "https://open.spotify.com/show/033qCk6lGlhqNLJveyQFcS", label: "Listen on Spotify", icon: Music2 },
 ]
 
 export default function HomePage() {

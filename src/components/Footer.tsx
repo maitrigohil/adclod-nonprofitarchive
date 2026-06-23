@@ -10,7 +10,7 @@ const platformLinks = [
     color: "hover:text-red-500",
   },
   {
-    href: "https://spotify.com",
+    href: "https://open.spotify.com/show/033qCk6lGlhqNLJveyQFcS",
     label: "Listen on Spotify",
     icon: Music2,
     color: "hover:text-green-500",
