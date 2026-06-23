@@ -10,7 +10,7 @@ import EpisodeCard from "@/components/EpisodeCard"
 import { episodes } from "@/data/episodes"
 
 const platformLinks = [
-  { href: "https://youtube.com", label: "Watch Podcast", icon: Youtube },
+  { href: "https://www.youtube.com/@adclodiimahmedabad1496", label: "Watch Podcast", icon: Youtube },
   { href: "https://spotify.com", label: "Listen on Spotify", icon: Music2 },
 ]
 

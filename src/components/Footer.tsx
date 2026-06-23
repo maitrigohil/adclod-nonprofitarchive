@@ -4,7 +4,7 @@ import { Separator } from "@/components/ui/separator"
 
 const platformLinks = [
   {
-    href: "https://youtube.com",
+    href: "https://www.youtube.com/@adclodiimahmedabad1496",
     label: "Watch Podcast",
     icon: Youtube,
     color: "hover:text-red-500",
