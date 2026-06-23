@@ -158,27 +158,41 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Platform links */}
-        <div
-          className="hero-platforms absolute bottom-8 left-6 lg:left-10 z-[3] flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-5"
-          style={{ color: "rgba(243,244,244,0.45)" }}
-        >
-          {platformLinks.map(({ href, label, icon: Icon }) => (
-            <Link
-              key={label}
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 transition-all duration-200"
-              style={{ color: "rgba(243,244,244,0.5)" }}
-              onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
-              onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
-            >
-              <span className="font-sans text-xs tracking-wide">{label}</span>
-              <Icon size={15} />
-            </Link>
-          ))}
+        {/* Watch Podcast — bottom left */}
+        {(() => { const { href, label, icon: YoutubeIcon } = platformLinks[0]; return (
+        <div className="hero-platforms absolute bottom-8 left-6 lg:left-10 z-[3]">
+          <Link
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 transition-all duration-200"
+            style={{ color: "rgba(243,244,244,0.5)" }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
+          >
+            <span className="font-sans text-xs tracking-wide">{label}</span>
+            <YoutubeIcon size={15} />
+          </Link>
         </div>
+        )})()}
+
+        {/* Listen on Spotify — bottom right */}
+        {(() => { const { href, label, icon: SpotifyIcon } = platformLinks[1]; return (
+        <div className="hero-platforms absolute bottom-8 right-6 lg:right-10 z-[3]">
+          <Link
+            href={href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 transition-all duration-200"
+            style={{ color: "rgba(243,244,244,0.5)" }}
+            onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
+            onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
+          >
+            <span className="font-sans text-xs tracking-wide">{label}</span>
+            <SpotifyIcon size={15} />
+          </Link>
+        </div>
+        )})()}
       </section>
 
       {/* ─── ABOUT ────────────────────────────────────── */}
