@@ -97,15 +97,15 @@ export default function HomePage() {
         {/* Content */}
         <div
           className="absolute inset-0 z-[2] flex flex-col items-center justify-center px-6 text-center"
-          style={{ paddingTop: "64px" }}
+          style={{ paddingTop: "64px", paddingBottom: "64px" }}
         >
           <div className="w-full max-w-4xl mx-auto flex flex-col items-center">
             <h1
               className="hero-title font-serif font-normal text-center w-full"
               style={{
                 color: "rgb(243, 244, 244)",
-                fontSize: "clamp(36px, 8vw, 100px)",
-                lineHeight: 1.2,
+                fontSize: "clamp(30px, 8vw, 100px)",
+                lineHeight: 1.15,
                 letterSpacing: "-0.1px",
                 WebkitFontSmoothing: "antialiased",
                 textRendering: "optimizeLegibility",
@@ -115,10 +115,10 @@ export default function HomePage() {
             </h1>
 
             <p
-              className="hero-subtitle font-sans font-normal mt-8 max-w-2xl"
+              className="hero-subtitle font-sans font-normal mt-5 sm:mt-8 max-w-2xl px-2"
               style={{
                 color: "rgba(243,244,244,0.80)",
-                fontSize: "clamp(15px, 1.6vw, 18px)",
+                fontSize: "clamp(13px, 1.6vw, 18px)",
                 lineHeight: 1.65,
                 letterSpacing: "0.01em",
               }}
@@ -126,7 +126,7 @@ export default function HomePage() {
               Documenting the journeys, decisions, and dilemmas of leaders who are shaping social change across India.
             </p>
 
-            <div className="hero-cta flex flex-col sm:flex-row items-center gap-5 mt-10">
+            <div className="hero-cta flex flex-col sm:flex-row items-center gap-4 sm:gap-5 mt-8 sm:mt-10">
               <Link
                 href="/podcasts"
                 className="group flex items-center gap-3 font-sans font-medium transition-all duration-200"
