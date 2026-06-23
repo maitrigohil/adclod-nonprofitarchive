@@ -198,7 +198,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── ABOUT ────────────────────────────────────── */}
-      <section id="about" className="py-16 sm:py-24 bg-white">
+      <section id="about" className="pt-16 sm:pt-24 pb-8 sm:pb-12 bg-white">
         <div className="section-container">
           <div className="max-w-5xl">
             <div className="mb-5">
@@ -236,7 +236,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── PODCASTS ─────────────────────────────────── */}
-      <section id="podcasts" className="py-16 sm:py-24 bg-cream">
+      <section id="podcasts" className="pt-8 sm:pt-12 pb-16 sm:pb-24 bg-cream">
         <div className="section-container">
           <div className="mb-10">
             <div className="mb-3">
