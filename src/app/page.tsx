@@ -10,7 +10,7 @@ import EpisodeCard from "@/components/EpisodeCard"
 import { episodes } from "@/data/episodes"
 
 const platformLinks = [
-  { href: "https://www.youtube.com/@adclodiimahmedabad1496", label: "Watch Podcast", icon: Youtube },
+  { href: "https://www.youtube.com/@adclodiimahmedabad1496", label: "Watch on our YouTube Channel", icon: Youtube },
   { href: "https://open.spotify.com/show/033qCk6lGlhqNLJveyQFcS", label: "Listen on Spotify", icon: Music2 },
 ]
 
@@ -130,20 +130,6 @@ export default function HomePage() {
 
             <div className="hero-cta flex flex-col sm:flex-row items-center gap-4 sm:gap-5 mt-8 sm:mt-10">
               <Link
-                href="/podcasts"
-                className="group flex items-center gap-3 font-sans font-medium transition-all duration-200"
-                style={{ color: "rgb(243,244,244)", fontSize: "15px", letterSpacing: "0.02em" }}
-              >
-                <span
-                  className="flex items-center justify-center w-11 h-11 rounded-full transition-transform duration-300 group-hover:scale-110"
-                  style={{ backgroundColor: "#003366" }}
-                >
-                  <ArrowRight size={18} color="white" />
-                </span>
-                Explore Episodes
-              </Link>
-
-              <Link
                 href="/#about"
                 className="group flex items-center gap-3 font-sans font-medium transition-all duration-200"
                 style={{ color: "rgba(243,244,244,0.65)", fontSize: "15px", letterSpacing: "0.02em" }}
@@ -155,6 +141,20 @@ export default function HomePage() {
                   <ArrowRight size={18} color="rgba(243,244,244,0.65)" />
                 </span>
                 About the Initiative
+              </Link>
+
+              <Link
+                href="/podcasts"
+                className="group flex items-center gap-3 font-sans font-medium transition-all duration-200"
+                style={{ color: "rgb(243,244,244)", fontSize: "15px", letterSpacing: "0.02em" }}
+              >
+                <span
+                  className="flex items-center justify-center w-11 h-11 rounded-full transition-transform duration-300 group-hover:scale-110"
+                  style={{ backgroundColor: "#003366" }}
+                >
+                  <ArrowRight size={18} color="white" />
+                </span>
+                Explore Episodes
               </Link>
             </div>
           </div>
@@ -173,7 +173,7 @@ export default function HomePage() {
             onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
           >
             <span className="font-sans text-xs tracking-wide">{label}</span>
-            <YoutubeIcon size={15} />
+            <YoutubeIcon size={20} />
           </Link>
         </div>
         )})()}
@@ -191,7 +191,7 @@ export default function HomePage() {
             onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
           >
             <span className="font-sans text-xs tracking-wide">{label}</span>
-            <SpotifyIcon size={15} />
+            <SpotifyIcon size={20} />
           </Link>
         </div>
         )})()}

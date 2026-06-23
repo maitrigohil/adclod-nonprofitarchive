@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator"
 const platformLinks = [
   {
     href: "https://www.youtube.com/@adclodiimahmedabad1496",
-    label: "Watch Podcast",
+    label: "Watch on our YouTube Channel",
     icon: Youtube,
     color: "hover:text-red-500",
   },
@@ -28,7 +28,7 @@ export default function Footer() {
             Ashank Desai Centre · IIM Ahmedabad
           </p>
           <h3 className="font-serif text-base font-semibold text-iima-blue">
-            Social Impact Podcast Series
+            ADCLOD Podcast with Social Impact Leaders
           </h3>
         </div>
 
@@ -42,7 +42,7 @@ export default function Footer() {
               className={`flex items-center gap-1.5 text-xs text-text-secondary ${color} transition-colors`}
             >
               <span>{label}</span>
-              <Icon size={13} />
+              <Icon size={16} />
             </Link>
           ))}
         </div>
@@ -63,7 +63,7 @@ export default function Footer() {
                   Ashank Desai Centre for Leadership and Organisational Development
                 </p>
                 <h3 className="font-serif text-lg font-semibold text-iima-blue">
-                  Social Impact Podcast Series
+                  ADCLOD Podcast with Social Impact Leaders
                 </h3>
               </div>
               <p className="text-sm text-text-secondary leading-relaxed">
@@ -104,7 +104,7 @@ export default function Footer() {
                     className={`flex items-center gap-2 text-sm text-text-secondary ${color} transition-colors`}
                   >
                     <span>{label}</span>
-                    <Icon size={14} />
+                    <Icon size={17} />
                   </Link>
                 ))}
               </div>
