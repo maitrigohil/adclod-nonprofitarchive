@@ -92,8 +92,9 @@ export default function EpisodeCard({
 
           {/* Footer — only for released episodes */}
           {episode.status === "released" && (
-            <div className="flex items-center justify-between mt-auto pt-3 border-t border-border">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-auto pt-3 border-t border-border">
+              {/* Blog + Transcript */}
+              <div className="flex items-center gap-4">
                 {episode.blogUrl ? (
                   <Link
                     href={episode.blogUrl}
@@ -115,7 +116,8 @@ export default function EpisodeCard({
                   <span className="text-xs text-text-primary opacity-40">Transcript</span>
                 )}
               </div>
-              <div className="flex flex-wrap items-center gap-3">
+              {/* Watch + Listen */}
+              <div className="flex items-center gap-4">
                 {episode.youtubeUrl ? (
                   <Link
                     href={episode.youtubeUrl}
