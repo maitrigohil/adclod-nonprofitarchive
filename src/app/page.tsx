@@ -14,6 +14,9 @@ const platformLinks = [
   { href: "https://open.spotify.com/show/033qCk6lGlhqNLJveyQFcS", label: "Listen on Spotify", icon: Music2 },
 ]
 
+const BREVO_FORM_ACTION =
+  "https://fa52c674.sibforms.com/serve/MUIFAF7JCwUd3aPrWeR8hUEtQIP-csVJJlDEYHny6K37Ati0TAN2BsvkoXyXWJPU76L5fhqDM2lHUfq3D0jrsxg8hn5zaDZ-K590LTQdYZ1ghUXw4p3W6hBUk39LYuD8anR6MJghU2LvSuyAGoE0KTpKH3qaMZ8tKSQQBVZa1MquwGSssD5NhoELjHamYwtmRq8buNZzSxkHYpw_7A=="
+
 export default function HomePage() {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [email, setEmail] = useState("")
@@ -39,9 +42,22 @@ export default function HomePage() {
     return () => cancelAnimationFrame(frameId)
   }, [])
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (email) setSubscribed(true)
+    if (!email) return
+
+    const body = new URLSearchParams()
+    body.append("EMAIL", email)
+    body.append("email_address_check", "")
+    body.append("locale", "en")
+
+    try {
+      await fetch(BREVO_FORM_ACTION, { method: "POST", mode: "no-cors", body })
+    } catch {
+      // Brevo's endpoint doesn't support CORS, so the response is opaque either way.
+    }
+
+    setSubscribed(true)
   }
 
   return (
