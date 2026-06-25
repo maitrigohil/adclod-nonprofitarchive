@@ -222,12 +222,12 @@ export default function HomePage() {
             </div>
 
             <h2 className="font-sans text-3xl md:text-4xl font-semibold text-text-primary mb-8 leading-snug">
-              Conversations that illuminate the practice of leadership in the social sector.
+              ADCLOD Podcast with Social Impact Leaders
             </h2>
 
             <div className="space-y-5 text-text-secondary leading-relaxed font-sans">
               <p>
-                The <strong className="text-text-primary font-semibold">Social Impact Leadership Podcast Series</strong> is
+                The <strong className="text-text-primary font-semibold">ADCLOD Podcast with Social Impact Leaders</strong> is
                 an initiative of the Ashank Desai Centre for Leadership and Organisational Development (ADCLOD) at the
                 Indian Institute of Management Ahmedabad — a centre dedicated to advancing research and thought leadership
                 in leadership and organisational development. India has a rich legacy of not-for-profit organisations
