@@ -35,6 +35,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/3TW7WzbEsbAWMwAgbuHyXl?si=v9Y4j0pwSWix49KybD04cg",
     guestPdfUrl: "/guests/Bhushan Punani ADCLOD Research.pdf",
     organisationUrl: "/guests/BPA ADCLOD Research.pdf",
+    transcriptUrl: "/guests/transcripts/bhushan-punani-bpa-transcript.pdf",
   },
   {
     id: "ep-02",
@@ -52,6 +53,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/5b6IbAweeYzUTDeFfIWm6f?si=qifREiv0TFK6YWyOuQqt0Q",
     guestPdfUrl: "/guests/Mirai Chatterjee ADCLOD Research.pdf",
     organisationUrl: "/guests/SEWA ADCLOD Research.pdf",
+    transcriptUrl: "/guests/transcripts/mirai-chatterjee-sewa-transcript.pdf",
   },
   {
     id: "ep-03",
@@ -69,6 +71,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/3xVhjJF8YKETvA6YJcZEB2?si=6df530edefda4ef4",
     guestPdfUrl: "/guests/Ramji Raghavan ADCLOD Research.pdf",
     organisationUrl: "/guests/Agastya International Foundation ADCLOD Research.pdf",
+    transcriptUrl: "/guests/transcripts/ramji-raghavan-agastya-transcript.pdf",
   },
   {
     id: "ep-04",
@@ -86,6 +89,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/0Dikf7ZjOft5iP6fbOrt5q?si=BW5dbE9dT_Sj1DyfhGQ2tA",
     guestPdfUrl: "/guests/Harish Hande ADCLOD Research.pdf",
     organisationUrl: "/guests/Selco Foundation ADCLOD Research.pdf",
+    transcriptUrl: "/guests/transcripts/harish-hande-selco-transcript.pdf",
   },
   {
     id: "ep-05",
