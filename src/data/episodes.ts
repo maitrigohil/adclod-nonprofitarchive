@@ -12,7 +12,6 @@ export interface Episode {
   youtubeUrl?: string
   spotifyUrl?: string
   podcastUrl?: string
-  blogUrl?: string
   transcriptUrl?: string
   guestUrl?: string
   guestPdfUrl?: string

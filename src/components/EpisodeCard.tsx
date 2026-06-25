@@ -93,18 +93,8 @@ export default function EpisodeCard({
           {/* Footer — only for released episodes */}
           {episode.status === "released" && (
             <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mt-auto pt-3 border-t border-border">
-              {/* Blog + Transcript */}
+              {/* Transcript */}
               <div className="flex items-center gap-4">
-                {episode.blogUrl ? (
-                  <Link
-                    href={episode.blogUrl}
-                    className="text-xs text-text-primary hover:text-iima-blue transition-colors underline underline-offset-2"
-                  >
-                    Blog
-                  </Link>
-                ) : (
-                  <span className="text-xs text-text-primary opacity-40">Blog</span>
-                )}
                 {episode.transcriptUrl ? (
                   <Link
                     href={episode.transcriptUrl}

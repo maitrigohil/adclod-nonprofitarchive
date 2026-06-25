@@ -64,7 +64,7 @@ Edit `src/data/episodes.ts` — each episode has:
 - `id`, `number`, `title`
 - `speakerName`, `designation`, `organisation`
 - `description`, `releaseDate`, `status`
-- `photoUrl`, `youtubeUrl`, `spotifyUrl`, `podcastUrl`, `blogUrl`
+- `photoUrl`, `youtubeUrl`, `spotifyUrl`, `podcastUrl`
 
 ### Updating Logos
 Replace the text-based logo in `src/components/Navbar.tsx` with actual `<Image>` components pointing to your logo files in `/public`.
