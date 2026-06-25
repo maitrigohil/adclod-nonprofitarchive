@@ -82,6 +82,8 @@ export const episodes: Episode[] = [
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/20-harish.jpeg",
+    youtubeUrl: "https://youtu.be/vYgy1VMwEP4?si=fx7FRay_nceZU_94",
+    spotifyUrl: "https://open.spotify.com/episode/0Dikf7ZjOft5iP6fbOrt5q?si=BW5dbE9dT_Sj1DyfhGQ2tA",
   },
   {
     id: "ep-05",
