@@ -32,7 +32,7 @@ export default function Footer() {
           </h3>
         </div>
 
-        <div className="flex items-center gap-5">
+        <div className="flex flex-col items-center gap-3">
           {platformLinks.map(({ href, label, icon: Icon, color }) => (
             <Link
               key={label}
