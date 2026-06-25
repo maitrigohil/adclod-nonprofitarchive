@@ -176,41 +176,39 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Watch Podcast — bottom left */}
-        {(() => { const { href, label, icon: YoutubeIcon } = platformLinks[0]; return (
-        <div className="hero-platforms absolute bottom-8 left-6 lg:left-10 z-[3]">
-          <Link
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 transition-all duration-200"
-            style={{ color: "rgba(243,244,244,0.5)" }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
-            onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
-          >
-            <span className="font-sans text-xs tracking-wide">{label}</span>
-            <YoutubeIcon size={20} />
-          </Link>
-        </div>
-        )})()}
-
-        {/* Listen on Spotify — bottom right */}
-        {(() => { const { href, label, icon: SpotifyIcon } = platformLinks[1]; return (
-        <div className="hero-platforms absolute bottom-8 right-6 lg:right-10 z-[3]">
-          <Link
-            href={href}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2 transition-all duration-200"
-            style={{ color: "rgba(243,244,244,0.5)" }}
-            onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
-            onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
-          >
-            <span className="font-sans text-xs tracking-wide">{label}</span>
-            <SpotifyIcon size={20} />
-          </Link>
-        </div>
-        )})()}
+        {/* Watch + Listen — bottom of hero */}
+        {(() => {
+          const { href: youtubeHref, label: youtubeLabel, icon: YoutubeIcon } = platformLinks[0]
+          const { href: spotifyHref, label: spotifyLabel, icon: SpotifyIcon } = platformLinks[1]
+          return (
+            <div className="hero-platforms absolute bottom-6 sm:bottom-8 left-0 right-0 z-[3] px-6 lg:px-10 flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
+              <Link
+                href={youtubeHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 transition-all duration-200"
+                style={{ color: "rgba(243,244,244,0.5)" }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
+              >
+                <span className="font-sans text-xs tracking-wide">{youtubeLabel}</span>
+                <YoutubeIcon size={20} />
+              </Link>
+              <Link
+                href={spotifyHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 transition-all duration-200"
+                style={{ color: "rgba(243,244,244,0.5)" }}
+                onMouseEnter={(e) => (e.currentTarget.style.color = "rgb(243,244,244)")}
+                onMouseLeave={(e) => (e.currentTarget.style.color = "rgba(243,244,244,0.5)")}
+              >
+                <span className="font-sans text-xs tracking-wide">{spotifyLabel}</span>
+                <SpotifyIcon size={20} />
+              </Link>
+            </div>
+          )
+        })()}
       </section>
 
       {/* ─── ABOUT ────────────────────────────────────── */}
