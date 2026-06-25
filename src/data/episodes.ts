@@ -84,6 +84,8 @@ export const episodes: Episode[] = [
     photoUrl: "/speakers/20-harish.jpeg",
     youtubeUrl: "https://youtu.be/vYgy1VMwEP4?si=fx7FRay_nceZU_94",
     spotifyUrl: "https://open.spotify.com/episode/0Dikf7ZjOft5iP6fbOrt5q?si=BW5dbE9dT_Sj1DyfhGQ2tA",
+    guestPdfUrl: "/guests/Harish Hande ADCLOD Research.pdf",
+    organisationUrl: "/guests/Selco Foundation ADCLOD Research.pdf",
   },
   {
     id: "ep-05",
