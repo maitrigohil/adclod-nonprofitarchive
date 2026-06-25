@@ -63,6 +63,8 @@ export default function EpisodeCard({
                 {episode.organisationUrl ? (
                   <Link
                     href={episode.organisationUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs text-text-primary hover:text-iima-blue transition-colors underline underline-offset-2"
                   >
                     About Organisation
@@ -98,6 +100,8 @@ export default function EpisodeCard({
                 {episode.transcriptUrl ? (
                   <Link
                     href={episode.transcriptUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs text-text-primary hover:text-iima-blue transition-colors underline underline-offset-2"
                   >
                     Transcript
