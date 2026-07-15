@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Calendar, ArrowRight, LucideYoutube, Music2 } from "lucide-react"
+import { Calendar, ArrowRight, LucideYoutube, Headphones } from "lucide-react"
 import { Episode } from "@/data/episodes"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
@@ -10,6 +10,28 @@ interface EpisodeCardProps {
   episode: Episode
   variant?: "preview" | "full"
   className?: string
+}
+
+const APPLE_PODCASTS_URL =
+  "https://podcasts.apple.com/in/podcast/adclod-podcast-with-social-impact-leaders/id6784178426"
+
+function ApplePodcastsIcon({ size = 14 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="12" cy="12" r="11" stroke="currentColor" strokeWidth="1.5" />
+      <path d="M12 6.5v3" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      <path
+        d="M9 8.3a4.4 4.4 0 0 0 0 7.4M15 8.3a4.4 4.4 0 0 1 0 7.4"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M12 11a1.2 1.2 0 0 1 1.2 1.2v.15a1.2 1.2 0 0 1-.7 1.09v2.56a.5.5 0 0 1-1 0v-2.56a1.2 1.2 0 0 1-.7-1.09v-.15A1.2 1.2 0 0 1 12 11Z"
+        fill="currentColor"
+      />
+    </svg>
+  )
 }
 
 export default function EpisodeCard({
@@ -110,8 +132,10 @@ export default function EpisodeCard({
                   <span className="text-xs text-text-primary opacity-40">Transcript</span>
                 )}
               </div>
-              {/* Watch + Listen */}
-              <div className="flex items-center gap-4">
+
+              {/* Available on */}
+              <div className="flex flex-wrap sm:flex-nowrap items-center gap-x-3 gap-y-2 sm:shrink-0">
+                <span className="text-xs text-text-muted w-full sm:w-auto">Available on</span>
                 {episode.youtubeUrl ? (
                   <Link
                     href={episode.youtubeUrl}
@@ -119,13 +143,13 @@ export default function EpisodeCard({
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-xs text-text-primary hover:text-red-500 transition-colors"
                   >
-                    Watch Podcast
                     <LucideYoutube size={14} />
+                    YouTube
                   </Link>
                 ) : (
                   <span className="flex items-center gap-1.5 text-xs text-text-primary opacity-40">
-                    Watch Podcast
                     <LucideYoutube size={14} />
+                    YouTube
                   </span>
                 )}
                 {episode.spotifyUrl ? (
@@ -135,15 +159,24 @@ export default function EpisodeCard({
                     rel="noopener noreferrer"
                     className="flex items-center gap-1.5 text-xs text-text-primary hover:text-green-500 transition-colors"
                   >
-                    Listen on Spotify
-                    <Music2 size={14} />
+                    <Headphones size={14} />
+                    Spotify
                   </Link>
                 ) : (
                   <span className="flex items-center gap-1.5 text-xs text-text-primary opacity-40">
-                    Listen on Spotify
-                    <Music2 size={14} />
+                    <Headphones size={14} />
+                    Spotify
                   </span>
                 )}
+                <Link
+                  href={APPLE_PODCASTS_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 text-xs text-text-primary hover:text-purple-500 transition-colors"
+                >
+                  <ApplePodcastsIcon size={14} />
+                  Apple Podcasts
+                </Link>
               </div>
             </div>
           )}

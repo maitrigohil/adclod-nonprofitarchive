@@ -100,9 +100,11 @@ export const episodes: Episode[] = [
     organisation: "Mann Deshi Foundation",
     description:
       "Chetna Gala Sinha started Mann Deshi Foundation in Maharashtra's drought-prone Satara district with a group of rural women who had been denied a bank account because they were deemed too poor to be creditworthy. What began as a fight for basic financial inclusion grew into a movement — a bank, a business school, a sports academy, and a chamber of commerce, all built by and for rural women. In this conversation, she reflects on what it takes to organise women across caste and class lines, how she navigated institutional resistance, and the kind of leadership that emerges from listening rather than directing.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/3-chetna.jpeg",
+    youtubeUrl: "https://youtu.be/iGlGP3ntd9w?si=B5S1v4gfSoOcev-l",
+    spotifyUrl: "https://open.spotify.com/episode/1nzMaYPLrky9j52WvLbi5s?si=99P7JeNgQ5KR9lJIwK6lwQ",
   },
   {
     id: "ep-06",
@@ -113,9 +115,12 @@ export const episodes: Episode[] = [
     organisation: "Piramal Foundation",
     description:
       "Aditya Natraj has spent decades working at the intersection of rural development, health systems, and community-driven change — first at PRADAN and later at the Piramal Foundation. In this conversation, he reflects on the intellectual and ethical journey of understanding what it means to work 'with' communities rather than 'for' them, and how that distinction reshapes everything from programme design to organisational culture. He speaks about the role of research in grounding practice, the limits of expert knowledge, and what he has unlearned over years of field work.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/16-aditya.jpeg",
+    youtubeUrl: "https://youtu.be/yN9cV-oXopA?si=9kbBbJIoDyhZTFvt",
+    spotifyUrl: "https://open.spotify.com/episode/2QmuGzUNSc6H8bkfxlebVh?si=cVTcaaiuTiqq2zWsCCEqmA",
+    transcriptUrl: "/guests/transcripts/aditya-natraj-piramal-transcript.pdf",
   },
   {
     id: "ep-07",
