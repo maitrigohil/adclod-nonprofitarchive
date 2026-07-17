@@ -169,7 +169,7 @@ export default function EpisodeCard({
                   </span>
                 )}
                 <Link
-                  href={APPLE_PODCASTS_URL}
+                  href={episode.podcastUrl || APPLE_PODCASTS_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1.5 text-xs text-text-primary hover:text-purple-500 transition-colors"

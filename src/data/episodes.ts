@@ -105,6 +105,8 @@ export const episodes: Episode[] = [
     photoUrl: "/speakers/3-chetna.jpeg",
     youtubeUrl: "https://youtu.be/iGlGP3ntd9w?si=B5S1v4gfSoOcev-l",
     spotifyUrl: "https://open.spotify.com/episode/1nzMaYPLrky9j52WvLbi5s?si=99P7JeNgQ5KR9lJIwK6lwQ",
+    organisationUrl: "/guests/Mann Deshi Foundation ADCLOD.pdf",
+    guestPdfUrl: "/guests/Chetna Gala Mann Deshi foundation.pdf",
   },
   {
     id: "ep-06",
@@ -121,6 +123,8 @@ export const episodes: Episode[] = [
     youtubeUrl: "https://youtu.be/yN9cV-oXopA?si=9kbBbJIoDyhZTFvt",
     spotifyUrl: "https://open.spotify.com/episode/2QmuGzUNSc6H8bkfxlebVh?si=cVTcaaiuTiqq2zWsCCEqmA",
     transcriptUrl: "/guests/transcripts/aditya-natraj-piramal-transcript.pdf",
+    guestPdfUrl: "/guests/Aditya Natraj Piramal.pdf",
+    organisationUrl: "/guests/Piramal Foundation ADCLOD.pdf",
   },
   {
     id: "ep-07",
@@ -130,10 +134,15 @@ export const episodes: Episode[] = [
     designation: "Executive Director, PRADAN",
     organisation: "PRADAN",
     description:
-      "Saroj Mahapatra shares reflections on leadership, institution-building, and social change at PRADAN.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+      "Saroj Mahapatra leads PRADAN, one of India's most respected rural development organisations, founded in 1983 and now working with over 3.4 million households across 10 states. In this conversation, he traces PRADAN's evolution — from pioneering the self-help group model in 1987, which went on to shape national programmes like MGNREGA and the National Rural Livelihoods Mission, to its current ambition of impacting 50 million lives by 2030. He reflects on what it takes to sustain a learning organisation over four decades, why depth of intervention matters as much as scale, and why PRADAN reframes 'monitoring, evaluation and learning' as 'learning, monitoring and evaluation' — putting learning first. He closes with advice for young professionals considering a career in rural development.",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/images/saroj.jpeg",
+    transcriptUrl: "/guests/transcripts/saroj-mahapatra-pradan-transcript.pdf",
+    youtubeUrl: "https://youtu.be/zDSio1yUPg8?si=Af51MWWqQ883xmQ1",
+    spotifyUrl: "https://open.spotify.com/episode/7owXM1ob4cnh3mi9sZCQSd?si=Gbd7pvq8R92D47m45aA2zA",
+    podcastUrl:
+      "https://podcasts.apple.com/in/podcast/saroj-mahapatra-community-led-rural-transformation/id6784178426?i=1000776901988",
   },
   {
     id: "ep-08",
