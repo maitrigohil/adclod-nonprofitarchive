@@ -152,12 +152,14 @@ export const episodes: Episode[] = [
     designation: "Co-founder & Chief Functionary, Prajwala",
     organisation: "Prajwala",
     description:
-      "Sunitha Krishnan reflects on building Prajwala and the work of combating human trafficking and supporting survivors.",
+      "What does it take to rescue more than 32,000 people from sex trafficking, and rebuild a life after? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Dr Sunitha Krishnan, co-founder of Prajwala, about three decades spent at the frontlines of anti-trafficking work in India.\n\nSunitha walks through Prajwala's five-pillar model — prevention, rescue, rehabilitation, reintegration, and advocacy — and the hard-won lessons behind each: why charity fails as a rehabilitation strategy, how non-conventional vocational trades became a tool for dismantling stigma, and why she deliberately stepped back from being the public face of the organisation she built. She speaks candidly about decentralising leadership through a cancer diagnosis, the discipline of never taking a bribe, and the emotional cost of three decades spent fighting an entrenched criminal economy.\n\nThe conversation is a rare, unflinching look at what institution-building looks like inside one of India's most difficult sectors — offering insight for anyone thinking about leadership under sustained personal risk, organisational succession, and the ethics of care work at scale.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/5-sunitha.jpeg",
     youtubeUrl: "https://youtu.be/h2l1SZhqNZo?si=lDZDOQ7XRbGUZaE_",
     spotifyUrl: "https://open.spotify.com/episode/1828L3VdHWk6bp1wcYqroz?si=f4z7GVTOTjmgJ48lAD2Kgw",
+    organisationUrl: "/guests/Prajwala ADCLOD Research.pdf",
+    guestPdfUrl: "/guests/Sunitha Krishnan ADCLOD Research.pdf",
     transcriptUrl: "/guests/transcripts/sunitha-krishnan-prajwala-transcript.pdf",
   },
   {
@@ -168,13 +170,15 @@ export const episodes: Episode[] = [
     designation: "Co-founder & CEO, Dream a Dream",
     organisation: "Dream a Dream",
     description:
-      "Vishal Talreja reflects on life-skills education and building organizations that center emotional safety.",
+      "How does a group of twelve fresh graduates turn a weekend volunteering habit into a movement reshaping India's public education systems? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Vishal Talreja, co-founder of Dream a Dream, about a 26-year journey from grassroots life-skills work to shaping government curricula and global education policy.\n\nVishal traces Dream a Dream's evolution through a series of hard-earned insights — from discovering the concept of \"failure to thrive\" in vulnerable children, to the Delhi government partnership that produced the landmark Happiness Curriculum, to building an internal \"people philosophy\" that includes a 10x salary cap and the removal of annual appraisals. He speaks candidly about his own reckoning with privilege and identity as a leader, his years navigating burnout and depression, and why he later founded the Cocoon Initiative to support fellow social-sector leaders through sabbaticals.\n\nThe conversation is a thoughtful study in organisational reinvention — on staying small by design, building leadership pipelines from within, and what it means to step back from the CEO role while staying deeply invested in the mission.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/7-vishal.jpeg",
     youtubeUrl: "https://youtu.be/InAIC_l5EOo?si=Ng1H3nXGmH_dwV3Y",
     spotifyUrl: "https://open.spotify.com/episode/1TWbzoIvPJZAztcp67O75L?si=UMPoY4GSTsycrAy_IKN_Fw",
     transcriptUrl: "/guests/transcripts/vishal-talreja-dream-a-dream-transcript.pdf",
+    guestPdfUrl: "/guests/Vishal Talreja ADCLOD Research.pdf",
+    organisationUrl: "/guests/Dream a Dream ADCLOD Research.pdf",
   },
   {
     id: "ep-10",
@@ -184,13 +188,15 @@ export const episodes: Episode[] = [
     designation: "Founder & CEO, Study Hall Educational Foundation",
     organisation: "SHEF",
     description:
-      "Urvashi Sahni reflects on her work with SHEF and the importance of community-driven approaches to social change.",
+      "Can education alone transform the conditions of a girl's life — her sense of self, her right to choose her own future? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Dr Urvashi Sahni, founder of the Study Hall Education Foundation (SHEF), about four decades spent building critical feminist pedagogy from the ground up in Uttar Pradesh.\n\nUrvashi traces SHEF's growth from a six-child preschool run out of her garage to a network reaching an estimated five million children — including Prerna Girls School, community-based learning centres for the most marginalised children, and a parallel critical feminist pedagogy curriculum for boys. She shares the story behind the pedagogy's origins in a single collage-making exercise, the transformation stories of individual students who resisted child marriage and rebuilt their lives, and her own journey from an arranged marriage at 17 to a PhD from UC Berkeley.\n\nThe conversation is a deeply personal reflection on research-driven practice, the risks of scaling pedagogy through government systems, and why Dr Sahni believes changing yourself is often the surest way to change the world around you.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/19-urvashi.jpeg",
     youtubeUrl: "https://youtu.be/yFxCftAakmo?si=0iVXYOghEkMu2XwK",
     spotifyUrl: "https://open.spotify.com/episode/3Ap7zYehmsejP45G9P0JmR?si=VfkbR4VWSm6RNZJHePZgxA",
     transcriptUrl: "/guests/transcripts/urvashi-sahni-shef-transcript.pdf",
+    guestPdfUrl: "/guests/Urvashi Sahni ADCLOD Research.pdf",
+    organisationUrl: "/guests/SHEF ADCLOD Research.pdf",
   },
   {
     id: "ep-14",
@@ -200,7 +206,7 @@ export const episodes: Episode[] = [
     designation: "Founder & Director, GOONJ",
     organisation: "GOONJ",
     description:
-      "Anshu Gupta discusses building GOONJ and the work of turning urban discard into rural resource, and what it means to design for dignity in disaster response.",
+      "Why has clothing never once appeared as a subject in any global development agenda, despite being one of humanity's three basic needs? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Anshu Gupta, founder of Goonj and recipient of the 2015 Ramon Magsaysay Award, about building a movement that has turned urban discard into rural dignity.\n\nAnshu unpacks Goonj's core philosophy — that \"sustained charity kills the dignity of people\" — and the Cloth for Work model built around it, where communities earn material resources by building roads, reviving water bodies, and leading their own local development, rather than receiving handouts. He speaks about the organisation's pioneering, taboo-breaking work on menstrual health, its underappreciated role in laying a nationwide \"grid\" of logistics and trust that powered its Covid-19 response, and lessons drawn from his own accident and recovery as a young man.\n\nThe conversation is a compelling challenge to conventional charity — on why dignity and choice matter more than aid, and why real innovation in development so often comes from the very communities that aid is meant to serve.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/10-anshu.jpeg",
@@ -216,7 +222,7 @@ export const episodes: Episode[] = [
     designation: "Founder & CEO, Teach For India",
     organisation: "Teach For India",
     description:
-      "Shaheen Mistri talks about building leadership pipelines in education and the tensions of working inside and outside systems.",
+      "What does it take to build not one but two of India's most influential education movements? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Shaheen Mistri, founder of Akanksha and co-founder of Teach For India, about a career spanning more than three decades of reimagining what education can be for India's most under-resourced children.\n\nShaheen reflects on Teach For India's fellowship model and its theory of change — investing deeply in leadership as the true multiplier of impact — alongside the role of the arts, including her own musical productions, in helping children build voice and identity. She speaks openly about her personal evolution as a leader: moving from a belief in individual heroism toward a quieter, more distributed model of leadership, and why she now believes \"leading with love\" — the subject of her forthcoming book — is the single most consistent thread across three decades of classrooms that worked.\n\nThe conversation is a candid meditation on humility in leadership, succession planning built on trust rather than control, and why the smallest acts of care in a classroom often outlast the biggest interventions.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/11-shaheen.jpeg",
