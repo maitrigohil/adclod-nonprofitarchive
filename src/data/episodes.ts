@@ -107,6 +107,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/1nzMaYPLrky9j52WvLbi5s?si=99P7JeNgQ5KR9lJIwK6lwQ",
     organisationUrl: "/guests/Mann Deshi Foundation ADCLOD.pdf",
     guestPdfUrl: "/guests/Chetna Gala Mann Deshi foundation.pdf",
+    transcriptUrl: "/guests/transcripts/chetna-gala-sinha-mann-deshi-transcript.pdf",
   },
   {
     id: "ep-06",
@@ -244,6 +245,7 @@ export const episodes: Episode[] = [
     photoUrl: "/speakers/images/rajendra.jpeg",
     youtubeUrl: "https://youtu.be/Yob-4UEocWo?si=oM2STPoj2zGXonTr",
     spotifyUrl: "https://open.spotify.com/episode/5UstK3kppB2dIwUolGnS2H?si=PKRG0sXARN6uuOz6njEA7Q",
+    transcriptUrl: "/guests/transcripts/rajendra-joshi-saath-transcript.pdf",
   },
   {
     id: "ep-11",
