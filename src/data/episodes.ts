@@ -235,10 +235,10 @@ export const episodes: Episode[] = [
     number: 13,
     title: "Rajendra Joshi · Saath Charitable Trust",
     speakerName: "Rajendra Joshi",
-    designation: "Executive Director, Saath Charitable Trust",
+    designation: "Founder & Managing Trustee, Saath Charitable Trust",
     organisation: "Saath Charitable Trust",
     description:
-      "Rajendra Joshi shares reflections on leadership, institution-building, and social change at Saath Charitable Trust.",
+      "What does it take to turn low-income and informal communities from beneficiaries of aid into genuine participants and market actors? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Rajendra Joshi, founder and managing trustee of Saath Charitable Trust, about more than three decades spent building community-led approaches to livelihoods, healthcare, education, financial inclusion, housing, and urban development across India.\n\nRajendra traces Saath's evolution from its early grassroots work in Ahmedabad to a model built on partnerships spanning communities, government, civil society, and the private sector. He reflects on what participatory leadership actually demands in practice — trust-building, community ownership, and structuring decision-making so people are genuinely involved, not just consulted. He also speaks to Saath's deliberate shift away from pure service delivery toward building institutional and market capabilities, drawing on the organisation's work with artisans, informal workers, and nano-entrepreneurs.\n\nThe conversation closes with his reflections on governance, talent development, and peace-building drawn from decades of institution-building — and his advice for young people looking to create visible, sustainable change in the social sector.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/images/rajendra.jpeg",
