@@ -239,9 +239,11 @@ export const episodes: Episode[] = [
     organisation: "Saath Charitable Trust",
     description:
       "Rajendra Joshi shares reflections on leadership, institution-building, and social change at Saath Charitable Trust.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/images/rajendra.jpeg",
+    youtubeUrl: "https://youtu.be/Yob-4UEocWo?si=oM2STPoj2zGXonTr",
+    spotifyUrl: "https://open.spotify.com/episode/5UstK3kppB2dIwUolGnS2H?si=PKRG0sXARN6uuOz6njEA7Q",
   },
   {
     id: "ep-11",
@@ -293,6 +295,6 @@ export const episodes: Episode[] = [
       "Ravi Sreedharan shares reflections on leadership, institution-building, and social change at ISDM.",
     releaseDate: "Coming Soon",
     status: "coming-soon",
-    photoUrl: "/speakers/images/rajendra.jpeg",
+    photoUrl: "/speakers/images/ravi.avif",
   },
 ]
