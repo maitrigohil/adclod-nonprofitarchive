@@ -256,9 +256,10 @@ export const episodes: Episode[] = [
     organisation: "Industree Foundation",
     description:
       "Neelam Chhiber reflects on building artisan-led enterprises and creating dignified livelihoods at scale.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/17-neelam.jpeg",
+    youtubeUrl: "https://youtu.be/skWeYn1nlcM?si=RUK6QFWWwcJj66o_",
   },
   {
     id: "ep-15",
@@ -269,9 +270,10 @@ export const episodes: Episode[] = [
     organisation: "Pratham",
     description:
       "Rukmini Banerji discusses building large-scale learning assessment systems and what it takes to sustain education reform across India.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/18-rukmini.jpeg",
+    youtubeUrl: "https://youtu.be/gI5dzeLejXg?si=w5n8FwAg1W9CMSkK",
   },
   {
     id: "ep-13",
@@ -282,9 +284,10 @@ export const episodes: Episode[] = [
     organisation: "MP Consulting",
     description:
       "Minar Pimple shares reflections on leadership, institution-building, and social change at MP Consulting.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/images/minar.jpeg",
+    youtubeUrl: "https://youtu.be/YwqGT2ypF-g?si=XSZFumTBWCzgzGdZ",
   },
   {
     id: "ep-12",
@@ -295,8 +298,9 @@ export const episodes: Episode[] = [
     organisation: "ISDM",
     description:
       "Ravi Sreedharan shares reflections on leadership, institution-building, and social change at ISDM.",
-    releaseDate: "Coming Soon",
-    status: "coming-soon",
+    releaseDate: "Released",
+    status: "released",
     photoUrl: "/speakers/images/ravi.avif",
+    youtubeUrl: "https://youtu.be/8ts2O6727mw?si=isSc4fUQILv9hy5J",
   },
 ]
