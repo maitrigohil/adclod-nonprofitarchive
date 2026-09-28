@@ -113,8 +113,9 @@ export default function PodcastsPage() {
                   The Podcast Series
                 </h1>
                 <p className="text-text-secondary text-sm font-light">
-                  {episodes.filter((e) => e.status === "released").length} episodes released ·{" "}
-                  {episodes.filter((e) => e.status === "coming-soon").length} episodes coming soon
+                  {episodes.filter((e) => e.status === "released").length} episodes released
+                  {episodes.filter((e) => e.status === "coming-soon").length > 0 &&
+                    ` · ${episodes.filter((e) => e.status === "coming-soon").length} episodes coming soon`}
                 </p>
               </div>
             </div>
