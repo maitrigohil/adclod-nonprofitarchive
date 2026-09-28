@@ -255,7 +255,7 @@ export const episodes: Episode[] = [
     designation: "Co-founder & Managing Director, Industree Foundation",
     organisation: "Industree Foundation",
     description:
-      "Neelam Chhiber reflects on building artisan-led enterprises and creating dignified livelihoods at scale.",
+      "On this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra is joined by Neelam Chhiber, co-founder of Industree Foundation, whose four-decade career has brought together design, enterprise, gender, and rural livelihoods.\n\nTrained as an industrial designer at NID Ahmedabad, Neelam first encountered the craft sector while working with metal casters in Bastar. She describes how that experience grew into Industree, which began as a social business and later added a foundation, and why she believes livelihoods work fails without a grasp of markets. She talks about pursuing large-volume orders from global buyers like IKEA, forming women-owned producer companies so that fair wages reached artisans directly, and learning, sometimes painfully, why blended finance matters. She also discusses the 6C framework and her choice to open Industree's methods to other organisations rather than guard them.\n\nIn the final part of the conversation, Neelam looks back on her transition out of day-to-day leadership, the one thing she wishes she had done sooner, and her guidance for aspiring changemakers: stay grounded in the communities you serve and let first-hand experience shape your decisions.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/17-neelam.jpeg",
@@ -267,10 +267,10 @@ export const episodes: Episode[] = [
     number: 15,
     title: "Rukmini Banerji · Pratham",
     speakerName: "Rukmini Banerji",
-    designation: "CEO, Pratham Education Foundation",
+    designation: "Senior Advisor, Pratham Education Foundation",
     organisation: "Pratham",
     description:
-      "Rukmini Banerji discusses building large-scale learning assessment systems and what it takes to sustain education reform across India.",
+      "Prof. Neharika Vohra is joined by Dr. Rukmini Banerji, who led Pratham Education Foundation as CEO from 2015 to 2026 and now serves as its senior advisor, for a conversation in the ADCLOD Podcast with Social Sector Leaders about three decades spent tackling one stubborn question: why are so many Indian children in school but not learning?\n\nRukmini recalls how volunteering in a Chicago public school during her PhD pulled her toward grassroots work, and how Pratham's early experiments in Mumbai grew into ASER, a citizen-led national survey of children's learning, and Teaching at the Right Level, an approach now used by state governments across India and in several African countries. She makes the case for keeping ideas simple enough that anyone can take part, for letting communities discover problems for themselves rather than simply being shown data, and for pairing curiosity with a healthy dose of skepticism. She also explains how Pratham's leadership brings together people who rose from the field with professionals from elsewhere, and how a culture of trust has produced many alumni who went on to found their own organisations.\n\nRukmini closes by discussing her recent handover of the CEO role, and advises anyone considering a move into the sector to spend real time on the ground first, and to join only if they sense there is a great deal left to learn.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/18-rukmini.jpeg",
@@ -285,7 +285,7 @@ export const episodes: Episode[] = [
     designation: "Founder, MP Consulting",
     organisation: "MP Consulting",
     description:
-      "Minar Pimple shares reflections on leadership, institution-building, and social change at MP Consulting.",
+      "For this conversation in the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra sits down with Minar Pimple, who co-founded YUVA at 23 and has since held senior roles at Oxfam India, the UN Millennium Campaign, and Amnesty International, and who now runs MP Consulting to support leaders across India's social sector.\n\nMinar describes how his consulting work, spanning executive coaching, team leadership, board strengthening, and organisational diagnostics, draws on years spent steering mergers, restructurings, and transitions around the world. He explains why he starts every engagement by listening before advising, and why he always leaves organisations with tools they can use without him. Along the way, he examines how caste, class, and gender shape access to funding, how tightening regulations are squeezing civil society just as needs rise, and why an organisation's legitimacy must come from the communities it serves, not just from its donors.\n\nLooking back, Minar considers what he would tell his younger self about empathy and developing others, and offers young people entering the sector some grounded counsel: read widely, know where you come from, and stay humble enough to learn from ordinary people.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/images/minar.jpeg",
@@ -297,10 +297,10 @@ export const episodes: Episode[] = [
     number: 17,
     title: "Ravi Sreedharan · ISDM",
     speakerName: "Ravi Sreedharan",
-    designation: "Founder & Director, Indian School of Development Management",
+    designation: "Founder & President, Indian School of Development Management",
     organisation: "ISDM",
     description:
-      "Ravi Sreedharan shares reflections on leadership, institution-building, and social change at ISDM.",
+      "What does it take to build management capability for India's development sector, and why can't business management simply be copied over? In this episode of the ADCLOD Podcast with Social Sector Leaders, Prof. Neharika Vohra speaks with Ravi Sreedharan, founder and president of the Indian School of Development Management (ISDM), about his move from 24 years in global banking to building a new discipline for civil society.\n\nRavi traces his path from HSBC and the Azim Premji Foundation to founding ISDM in 2016, and explains its pedagogy of knowing, doing, and being. He argues that development organisations are often \"over-led and under-managed,\" with serious gaps in data, finance, technology, and governance. He also reflects on the distance between philanthropists and grassroots workers, the risk of treating symptoms instead of systemic causes, and why fair pay matters for building the sector's talent.\n\nThe conversation closes with his thoughts on running organisations as a microcosm of the society they hope to create, on ISDM's succession plan beyond its founders, and on his advice for young people: invest in yourself, and stay curious about the realities outside your own bubble.",
     releaseDate: "Released",
     status: "released",
     photoUrl: "/speakers/images/ravi.avif",
