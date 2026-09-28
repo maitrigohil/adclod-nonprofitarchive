@@ -151,13 +151,6 @@ export default function PodcastsPage() {
               if (!ep) return null
               return (
                 <div className="mb-10">
-                  <button
-                    onClick={() => setActiveEpisodeId(null)}
-                    className="text-xs text-text-muted hover:text-iima-blue mb-4 flex items-center gap-1 transition-colors"
-                  >
-                    <ArrowLeft size={12} /> Show all episodes
-                  </button>
-                  
                   <EpisodeCard episode={ep} variant="full" />
 
                   <Separator className="my-10" />
