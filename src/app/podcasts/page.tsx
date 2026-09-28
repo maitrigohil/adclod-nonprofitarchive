@@ -29,7 +29,10 @@ export default function PodcastsPage() {
     if (idx !== -1) {
       setPage(Math.floor(idx / EPISODES_PER_PAGE))
     }
-    // Scroll main area to top
+    // The page scrolls at the window level (the main content div has no
+    // bounded height, so its own overflow never engages), so scroll the
+    // window itself back to the top to bring the selected card into view.
+    window.scrollTo({ top: 0, behavior: "smooth" })
     mainRef.current?.scrollTo({ top: 0, behavior: "smooth" })
   }
 
