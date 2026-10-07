@@ -325,5 +325,6 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/5wXIyKs2IIcjlSxIbSidhz?si=724sDJubR2SCa_B-3IMw6A",
     transcriptUrl: "/guests/transcripts/ravi-sreedharan-isdm-transcript.pdf",
     guestPdfUrl: "/guests/Ravi Sreedharan ADCLOD Research.pdf",
+    organisationUrl: "/guests/ISDM ADCLOD Research.pdf",
   },
 ]
