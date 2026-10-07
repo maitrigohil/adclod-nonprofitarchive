@@ -253,6 +253,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/5UstK3kppB2dIwUolGnS2H?si=PKRG0sXARN6uuOz6njEA7Q",
     transcriptUrl: "/guests/transcripts/rajendra-joshi-saath-transcript.pdf",
     guestPdfUrl: "/guests/Rajendra Joshi ADCLOD Research.pdf",
+    organisationUrl: "/guests/Saath Charitable Trust ADCLOD Research.pdf",
   },
   {
     id: "ep-11",
@@ -288,6 +289,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/2WeRaylCZnlisZzfvCrFg7?si=NMElL5hZTLWv4N-KR4m26A",
     transcriptUrl: "/guests/transcripts/rukmini-banerji-pratham-transcript.pdf",
     guestPdfUrl: "/guests/Rukmini Banerji ADCLOD Research.pdf",
+    organisationUrl: "/guests/Pratham ADCLOD Research.pdf",
   },
   {
     id: "ep-13",
@@ -305,6 +307,7 @@ export const episodes: Episode[] = [
     spotifyUrl: "https://open.spotify.com/episode/1hwdYgIzZivLayR3gwuxWf?si=igNnlrvFQ4ux07_dCNTTVQ",
     transcriptUrl: "/guests/transcripts/minar-pimple-transcript.pdf",
     guestPdfUrl: "/guests/Minar Pimple ADCLOD Research.pdf",
+    organisationUrl: "/guests/MP Consulting ADCLOD Research.pdf",
   },
   {
     id: "ep-12",
