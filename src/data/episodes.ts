@@ -214,6 +214,8 @@ export const episodes: Episode[] = [
     youtubeUrl: "https://youtu.be/LZCvA69xOVY?si=7Iz41LCV7abDolct",
     spotifyUrl: "https://open.spotify.com/episode/6KNKO89NZdKasjl80ux7aI?si=5t_F-s_ATfOXeaPLq-zoSQ",
     transcriptUrl: "/guests/transcripts/anshu-gupta-goonj-transcript.pdf",
+    guestPdfUrl: "/guests/Anshu Gupta ADCLOD Research.pdf",
+    organisationUrl: "/guests/GOONJ ADCLOD Research.pdf",
   },
   {
     id: "ep-16",
@@ -230,6 +232,8 @@ export const episodes: Episode[] = [
     youtubeUrl: "https://youtu.be/TgA2f81hL40?si=elawMr_a0EM9b-Sr",
     spotifyUrl: "https://open.spotify.com/episode/3Q1MGy7Sa2feGUY3zEQGt6?si=RRh814FbTP6aUl_jg75RHg",
     transcriptUrl: "/guests/transcripts/shaheen-mistri-teach-for-india-transcript.pdf",
+    guestPdfUrl: "/guests/Shaheen Mistri ADCLOD Research.pdf",
+    organisationUrl: "/guests/Teach For India ADCLOD Research.pdf",
   },
   {
     id: "ep-17",
@@ -262,6 +266,8 @@ export const episodes: Episode[] = [
     youtubeUrl: "https://youtu.be/skWeYn1nlcM?si=RUK6QFWWwcJj66o_",
     spotifyUrl: "https://open.spotify.com/episode/5DOXsKfxSOUUKEOA4YCzSU?si=LL_jOBTFSxeMlKM2K3Gwgw",
     transcriptUrl: "/guests/transcripts/neelam-chhiber-industree-transcript.pdf",
+    guestPdfUrl: "/guests/Neelam Chhiber ADCLOD Research.pdf",
+    organisationUrl: "/guests/Industree Foundation ADCLOD Research.pdf",
   },
   {
     id: "ep-15",
